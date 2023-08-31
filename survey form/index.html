@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Survey Form</h1>
+    <form id="form">
+        <div class="form-control">
+            <label for="name" id="label-name">
+                Name
+            </label>
+            <input type="text" placeholder="Enter Your Name" required />
+        </div>
+        <div class="form-control">
+            <label for="email" id="label-email">
+                Email:
+            </label>
+            <input type="email" id="email" placeholder="Enter you Email-id"/>
+        </div>
+        <div class="form-control">
+            <label for="age" id="label-age">
+                Age
+            </label>
+            <input type="text" id="age" placeholder="Enter Your Age"/>
+        </div>
+        <div class="form-control">
+            <label for="role" id="label-role">
+                Which Option Best Describes Yoy?
+            </label>
+            <select name="role" id="role">
+                <option value="">Select One...</option>
+                <option value="Student">Student</option>
+                <option value="Student">Intern</option>
+                <option value="Professional">Professional</option>
+                <option value="Independent">Independent</option>
+                <option value="Independent">Other</option>
+                </select>
+        </div>
+        <div class="form-control">
+            <label>
+                Which Domain You Are Intrested?
+            </label>
+            <label for="recommed-1">
+                <input type="radio" id="recommed-1" name="recommed">
+                Yes
+        </input>
+            </label>
+            <label for="recommed-2">
+                <input type="radio" id="recommed-2" name="recommed">
+                No
+                </input>
+            </label>
+            <label for="recommed-3">
+                <input type="radio" id="recommed-3" name="recommed">
+                Not Sure
+                </input>
+            </label>
+        </div>
+        <div class="form-control">
+            <label> Languages and Frameworks Know
+                <small>(Check all that apply)</small>
+            </label>
+            <label for="inp-1">
+                <input type="checkbox" name="inp">C Programming</input>
+            </label>
+            <label for="inp-2">
+                <input type="checkbox" name="inp">Java</input>
+            </label>
+            <label for="inp-3">
+                <input type="checkbox" name="inp">Python</input>
+            </label>
+            <label for="inp-4">
+                <input type="checkbox" name="inp">PHP</input>
+            </label>
+            <label for="inp-5">
+                <input type="checkbox" name="inp">JavaScript</input>
+            </label>
+            <label for="inp-6">
+                <input type="checkbox" name="inp">HTML/CSS</input>
+            </label>
+            <label for="inp-7">
+                <input type="checkbox" name="inp">SQL</input>
+            </label>
+            <label for="inp-8">
+                <input type="checkbox" name="inp">Android Development</input>
+            </label>
+            <label for="inp-9">
+                <input type="checkbox" name="inp">C++</input>
+            </label>
+            <label for="inp-10">
+                <input type="checkbox" name="inp">.NET</input>
+            </label>
+            <label for="inp-11">
+                <input type="checkbox" name="inp">C#</input>
+            </label>
+        </div>
+        <div class="form-control">
+            <label for="comment">
+                Any Comment Or Suggestions
+            </label>
+            <textarea name="comment" id="comment" placeholder="Enter your comment here...!" cols="30" rows="10"></textarea>
+        </div>
+        <button type="submit" value="submit">
+            Submit
+        </button>
+    </form>
+</body>
+</html>
